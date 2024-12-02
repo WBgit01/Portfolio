@@ -316,7 +316,7 @@ document.getElementById('show-portfolio-btn').addEventListener('click', function
   setTimeout(() => {
     portfolioSection.classList.add('show-slide-up');
     
-    // Show the footer after the portfolio section is displayed
+
     footer.classList.remove('hidden');
   }, 10);
 });
