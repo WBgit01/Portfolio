@@ -517,4 +517,12 @@ body {
   opacity: 1;
 }
 
+/* DESKTOP MDDE - LOCK */
+html, body {
+  min-width: 1024px;
+  overflow-x: auto;
+}
+
+@media (max-width: 1024px) {
+}
 
