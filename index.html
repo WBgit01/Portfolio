@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- START -->
+  <div class="start" id="start">
+    <h1>Welcome to My Portfolio</h1>
+    <button class="btn-start" id="btn-start">Click to Start</button>
+  </div>
+
+  <header class="header hidden" id="header">
+    <div class="container">
+      <nav class="navbar hidden" id="navbar">
+        <div class="logo" id="logo-container"></div>
+        <ul class="nav-links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill-set">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#" class="hire-btn">Hire Me</a></li>
+        </ul>
+      </nav>
+      <div class="intro hidden" id="intro">
+        <p>Hi, I am</p>
+        <h1>Willdel Bravo</h1>
+        <h2>Cybersecurity | App Developer</h2>
+        <p class="description"></p>
+        <div class="buttons">
+          <a href="#" class="btn">Download CV</a>
+          <a href="#" class="btn contact-btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- STATS -->
+    <section class="stats hidden" id="stats">
+      <div class="container" id="stats-container"></div>
+    </section>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="about hidden" id="about">
+    <div class="container">
+        <div class="about-wrapper">
+            <div class="about-image">
+                <img id="about-img" src="" alt="About Me" class="about-img">
+            </div>
+            <div class="about-info">
+                <h2 id="about-title">About Me</h2>
+                <p id="about-description"></p>
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p id="contact-email"></p>
+                    <p id="contact-phone"></p>
+                </div>
+                <div class="socials">
+                    <h3>Connect with Me</h3>
+                    <a href="#" id="facebook-link" target="_blank">Facebook</a>
+                    <a href="#" id="twitter-link" target="_blank">Twitter</a>
+                    <a href="#" id="linkedin-link" target="_blank">LinkedIn</a>
+                </div>
+
+                <button id="show-skill-set-btn" class="btn-start">Show Skill Set</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- SKILL SET -->
+  <section class="skill-set hidden" id="skill-set">
+    <div class="container">
+      <h2>My Skill Set</h2>
+      <div class="skill-set-columns">
+
+        <div class="left-column" id="skill-set-logos">
+          <!-- Badges inserted here -->
+        </div>
+  
+        <div class="right-column" id="skill-set-slider">
+          <!-- Skill bars inserted here -->
+        </div>
+      </div>
+
+      <button id="show-portfolio-btn" class="btn-start">Show Portfolio</button>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <div class="portfolio hidden" id="portfolio"></div>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer hidden">
+    <div class="footer-content">
+      <p>©2024 Willdel Bravo. All rights reserved.</p>
+      <a href="https://github.com/WBgit01/Portfolio.git" target="_blank" class="github-link">GitHub</a>
+    </div>
+  </footer>
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
